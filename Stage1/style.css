@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins%3A400%2C600&amp;ver=4.9.5');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: "Poppins";
+    text-align: center;
+}
+main{
+    height: 100vh;
+}
+.wrapper{
+    height: 100vh;
+    background: url('./assets/bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: 0 60%;
+}
+.content{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    margin: 0 auto;
+}
+h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+h4{
+    font-size: 48px;
+    font-weight: 400;
+}
+h6{
+    font-size: 32px;
+}
+p{
+    font-size: 24px;
+}
+.time {
+    background: #ffffff;
+    width: 40%;
+    margin: 0 auto;
+    color: #000000 !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+}
+
+.time:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
